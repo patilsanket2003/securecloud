@@ -1,0 +1,5 @@
+{
+  "name": "SecureCloud",
+  "description": "Cloud-Based Digital Evidence Submission and Verification System with integrity hashing and role-based access control.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,129 @@
+# Dependencies
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist
+build
+
+# Environment files (keep examples)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+!.env.render
+
+# IDE and editor files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage
+*.lcov
+.nyc_output
+
+# Temporary folders
+tmp
+temp
+
+# Git
+.git
+.gitignore
+
+# Documentation
+README.md
+README-OLD.md
+*.md
+
+# Test files
+test
+tests
+__tests__
+*.test.js
+*.spec.js
+
+# Development tools
+.eslintrc*
+.prettierrc*
+tsconfig.json
+jest.config.js
+
+# AWS deployment files
+aws-deploy/
+deploy.sh
+user-data.sh
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+securecloud.db
+
+# Uploads and user content
+uploads
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.pdf
+*.doc
+*.docx
+*.txt
+
+# Development scripts
+activity-tracking-schema.sql
+apply-schema.ts
+check-sessions.ts
+cleanup-sessions.ts
+fix-schema.ts
+seed-admin.ts
+postgres-schema.sql
+test-criminal-db.js
+test-criminal-photo.jpg
+
+# Removed canvas-dependent files
+src/server/face-recognition-service.ts
+src/server/real-face-recognition-original.ts
+
+# Cookie files
+admin_cookies.txt
+super-admin-cookies.txt
+cookies.txt
+
+# Environment documentation
+github-commands.md
+ENVIRONMENT-VARIABLES-COMPLETE.md
+RENDER_ENV_FINAL
+RENDER_ENV_VARIABLES
+FINAL_ENV_FOR_RENDER
+
+# Other
+.nyc_output
+.cache
+.snapshots
