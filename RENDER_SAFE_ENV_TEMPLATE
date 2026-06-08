@@ -11,5 +11,5 @@ NODE_ENV=production
 APP_URL=https://your-service-name.onrender.com
 GEMINI_API_KEY=YOUR_PRODUCTION_GEMINI_API_KEY
 ADMIN_EMAIL=admin@securecloud.com
-ADMIN_PASSWORD=admin123456
+ADMIN_PASSWORD=
 ADMIN_NAME=System Administrator
